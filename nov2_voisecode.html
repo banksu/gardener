@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoiseCode</title>
+  </head>
+  <body>
+    <pre>
+        Hello!
+        Thanks for being here!
+        To test this app you need to use Google Chrome.
+        Commands available :
+            - HTML open [tag]
+            - HTML contant [sentence]
+            - HTML finish [tag]
+            - CSS open [tag]
+            - CSS style [property] is [value]
+            - CSS finish
+        For example,to make this page blue, say :
+            - CSS open body
+            - CSS background color is blue
+            - CSS finish
+    </pre>
+    <div>
+      <button id="start">Start Listening</button>
+      <button id="stop">Stop Listening</button>
+    </div>
+    <div>
+      <br />
+      <span>Status : </span>
+      <span id="status">Not Listening</span>
+      <br />
+      <span id="command"></span>
+    </div>
+    <div id="preview"></div>
+    <script src="nov2_voisecode.js"></script>
+  </body>
+</html>
